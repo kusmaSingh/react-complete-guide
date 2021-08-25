@@ -1,6 +1,8 @@
 
-import Expenses from './components/Expenses';
+import Expenses from './components/Expenses/Expenses';
+import NewExpense from './components/NewExpense/NewExpense';
 function App() {
+
   const expensees =[
     {id:'e1' , title : 'Car insurance', amount: 799.49, date: new Date(2021,3,21)},
     {id:'e2', title : 'Mobile insurance', amount: 245.49, date: new Date(2021,4,1)},
@@ -13,8 +15,8 @@ function App() {
   return (
     <div className="App">
       <h2>Let's get started!!</h2>
-<Expenses items={expensees}></Expenses>
-    
+      <NewExpense />
+      <Expenses items={expensees}></Expenses>
     </div>
   );
 }
