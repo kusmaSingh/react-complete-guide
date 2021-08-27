@@ -12,10 +12,17 @@ function App() {
     {id:'e6', title : 'New TV' ,amount: 499.49, date: new Date(2021,6,20)}
 
   ]
+const addExpenseHandler = (expense)=>{
+  console.log('In App.js');
+  expensees.push(expense);
+  console.log(expensees);
+
+}
+
   return (
     <div className="App">
       <h2>Let's get started!!</h2>
-      <NewExpense />
+      <NewExpense onAddExpense = {addExpenseHandler}/>
       <Expenses items={expensees}></Expenses>
     </div>
   );
