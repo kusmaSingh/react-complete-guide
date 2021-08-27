@@ -18,7 +18,7 @@ console.log(props);
         <h2>{title}</h2>
         <div className='expense-item__price'>${props.amount}</div>
       </div>
-      <button onClick={changeTitle}>Change Title</button>
+      <button className="expense-button" onClick={changeTitle}>Change Title</button>
     </Card>
   );
 }

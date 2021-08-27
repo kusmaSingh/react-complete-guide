@@ -16,6 +16,14 @@
     justify-content: flex-start;
     flex: 1;
   }
+  .expense-button{
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 1rem;
+    box-shadow: 10px 5px 5px 0px rgba(153, 0, 255, 0.705);
+  }
   
   .expense-item h2 {
     color: #3a3a3a;
