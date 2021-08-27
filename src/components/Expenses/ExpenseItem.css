@@ -22,7 +22,7 @@
     border-radius: 20px;
     margin: 5px;
     font-size: 1rem;
-    box-shadow: 10px 5px 5px 0px rgba(153, 0, 255, 0.705);
+    box-shadow:  0 1px 6px 0 rgba(153, 0, 255, 0.705);
   }
   
   .expense-item h2 {
