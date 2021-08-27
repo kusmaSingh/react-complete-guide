@@ -4,8 +4,9 @@ import Card from '../UI/Card';
 import './ExpenseItem.css';
 import React, {useState} from 'react';
 function ExpenseItem(props) {
+  debugger
  const [title, setTitle] = useState(props.title);
-
+console.log(props);
  function changeTitle(e){
   console.log(title)
   setTitle("title")
