@@ -19,9 +19,11 @@
   .expense-button{
     padding: 10px;
     border: 2px solid purple;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 5px;
     font-size: 1rem;
+    font-weight: 600;
+    color: rgb(76, 11, 119);
     box-shadow:  0 1px 6px 0 rgba(153, 0, 255, 0.705);
   }
   
