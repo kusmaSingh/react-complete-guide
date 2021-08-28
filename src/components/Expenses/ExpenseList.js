@@ -1,7 +1,7 @@
 import React from "react"
 import './ExpenseList.css';
 import ExpenseItem from "./ExpenseItem";
-
+import ExpensesChart from "./ExpensesChart";
 const ExpenseList = (props)=>{
 if(props.items.length === 0){
 return <h1 className='expense-list__fallback'>No Expens Found</h1>
